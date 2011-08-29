@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "shiv"
   gem.homepage = "http://github.com/vanstee/shiv"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Shiv is a quick and dirty hack to use chef node names in place of their hostnames.}
+  gem.description = %Q{Shiv is a quick and dirty hack to use chef node names in place of their hostnames.}
   gem.email = "vanstee@highgroove.com"
   gem.authors = ["vanstee"]
   # dependencies defined in Gemfile
