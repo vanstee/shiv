@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# encoding: utf-8
+
+require 'shiv'
+
+command = ARGV.join(' ')
+command = Shiv.edit(command)
+exec(command)
