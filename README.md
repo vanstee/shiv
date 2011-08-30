@@ -3,6 +3,13 @@ Shiv
 
 Shiv is a quick and dirty hack to use chef node names in place of their hostnames.
 
+Install
+-------
+
+```
+gem install shiv
+```
+
 Examples
 --------
 
