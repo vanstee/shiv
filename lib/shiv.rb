@@ -3,6 +3,8 @@ require 'chef/knife'
 require 'chef/config'
 
 module Shiv
+  PROVIDERS = ['ec2', 'rackspace']
+  
   def self.edit(command)
     configure
     nodes.each do |node|
@@ -16,7 +18,10 @@ module Shiv
   end
   
   def self.hostname_from(node)
-    Chef::Node.load(node)["ec2"]["public_hostname"]
+    node = Chef::Node.load(node)
+    hostnames = (PROVIDERS & node.keys).map do |provider|
+      node[provider]['public_hostname']
+    end.compact.first
   end
   
   def self.configure
