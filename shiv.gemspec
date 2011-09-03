@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{vanstee}]
-  s.date = %q{2011-08-30}
+  s.date = %q{2011-09-03}
   s.description = %q{Shiv is a quick and dirty hack to use chef node names in place of their hostnames.}
   s.email = %q{vanstee@highgroove.com}
   s.executables = [%q{shiv}]
@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "bin/shiv",
     "lib/shiv.rb",
+    "shiv.gemspec",
     "test/helper.rb",
     "test/test_shiv.rb"
   ]
