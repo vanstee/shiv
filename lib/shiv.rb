@@ -14,7 +14,7 @@ module Shiv
   end
   
   def self.nodes
-    Chef::Node.list.keys
+    Chef::Node.list.keys.sort.reverse
   end
   
   def self.hostname_from(node)
