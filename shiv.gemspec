@@ -4,15 +4,15 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{shiv}
-  s.version = "0.1.2"
+  s.name = "shiv"
+  s.version = "0.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = [%q{vanstee}]
-  s.date = %q{2011-09-08}
-  s.description = %q{Shiv is a quick and dirty hack to use chef node names in place of their hostnames.}
-  s.email = %q{vanstee@highgroove.com}
-  s.executables = [%q{shiv}]
+  s.authors = ["vanstee"]
+  s.date = "2011-10-05"
+  s.description = "Shiv is a quick and dirty hack to use chef node names in place of their hostnames."
+  s.email = "vanstee@highgroove.com"
+  s.executables = ["shiv"]
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
@@ -31,11 +31,11 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_shiv.rb"
   ]
-  s.homepage = %q{http://github.com/vanstee/shiv}
-  s.licenses = [%q{MIT}]
-  s.require_paths = [%q{lib}]
-  s.rubygems_version = %q{1.8.6}
-  s.summary = %q{Shiv is a quick and dirty hack to use chef node names in place of their hostnames.}
+  s.homepage = "http://github.com/vanstee/shiv"
+  s.licenses = ["MIT"]
+  s.require_paths = ["lib"]
+  s.rubygems_version = "1.8.10"
+  s.summary = "Shiv is a quick and dirty hack to use chef node names in place of their hostnames."
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
